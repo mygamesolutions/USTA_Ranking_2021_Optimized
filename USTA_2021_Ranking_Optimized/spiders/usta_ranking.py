@@ -44,7 +44,7 @@ class UstaRankingSpider(scrapy.Spider):
             "JUNIOR_NULL_F_SEEDING_Y14_UNDER_DOUBLES_INDIVIDUAL_NULL",
             "JUNIOR_NULL_F_SEEDING_Y18_UNDER_DOUBLES_INDIVIDUAL_NULL"
         ]
-        for j in li:
+        for j in li[:2]:
             for i in range(1, 101):
                 headers = {
                     "Accept": "*/*",
