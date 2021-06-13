@@ -7,7 +7,7 @@ from os import read
 from scrapy import signals
 import json
 # useful for handling different item types with a single interface
-from itemadapter import is_item, ItemAdapter
+# from itemadapter import is_item, ItemAdapter
 import csv
 import requests
 from requests.auth import HTTPBasicAuth
